@@ -1,0 +1,141 @@
+* {
+    	box-sizing: border-box;
+    	font-family: -apple-system, BlinkMacSystemFont, "segoe ui", roboto, oxygen, ubuntu, cantarell, "fira sans", "droid sans", "helvetica neue", Arial, sans-serif;
+    	font-size: 16px;
+  	-webkit-font-smoothing: antialiased;
+    	-moz-osx-font-smoothing: grayscale;
+}
+body {
+	background-color: ;
+	margin: 0;
+	overflow: auto;
+}
+
+.login {
+	width: 90%;
+	background-color: #ffffff;
+	box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.3);
+	margin: 20% auto;
+	padding: 10% 15%;
+	position: relative;
+	float : center ;
+	overflow: hidden;
+	transition: all ease 1s;
+	border-radius: 8px;
+}
+.login h1 {
+	text-align: center;
+	color: #5b6574;
+	font-size: 24px;
+	padding: 5px 0;
+	border-bottom: 0px solid #dee0e4;
+}
+
+
+@media only screen and (min-width: 500px) {
+  .login {
+    width: 60%;
+  }
+}
+.login input {
+  border : none ;
+  outline : none ;
+  border-bottom: 3px solid #007caa;
+  padding: 12px 18px;
+  width: 90%;
+  color: #005173;
+  font-weight: bolder;
+  margin: 8px auto;
+  text-align: center;
+  border-radius: 2px;
+}
+.login #__btn {
+  margin: 18px auto;
+  padding: 6px 15px;
+  border:none;
+  border-radius: 12px;
+  outline:none;
+  background-color: #007caa;
+  color: #ffffff;
+  font-weight: bolder;
+  transition: all ease 1s;
+}
+
+.login #__btn:hover{
+ background-color:rgb(62,254,244); 
+ cursor: pointer;
+ box-shadow: 4px 3px 8px #0059ff;
+ color: rgb(5,38,204);
+ font-size: 13px;
+ transition: all ease 1s;
+}
+
+.login input:focus {
+  border-color : #1bf926;
+  transition: all ease 0.3s;
+}
+.login .msg {
+  margin: 5px auto;
+  padding: 3px;
+  text-align: center;
+  font-weight: bolder;
+  color: #565656;
+}
+.login img {
+  width: 130px;
+  border-radius: 100%;
+  object-fit: cover;
+  align-items: center;
+  margin: 0px auto;
+}
+.login ._error {
+  color: #f00;
+  font-size: 13px;
+  font-weight: bolder;
+  padding: 5px 10px;
+  margin: 8px auto;
+  border-radius: 6px;
+  border : 1px solid #ff340b;
+  transition: all ease 1s;
+}
+.login ._success {
+  color: #009801;
+  font-size: 13px;
+  font-weight: bolder;
+  padding: 5px 12px;
+  margin: 8px auto;
+  border-radius: 6px;
+  border : 1px solid #3ff534;
+  transition: all ease 1s;
+}
+.login #info a {
+  font-size: 13px;
+  padding: 5px;
+  margin: 3px auto;
+  text-align: center;
+  color: #009fff;
+  text-decoration: none;
+}
+.login #info a:hover{
+  font-size: 15px;
+  color: #005867;
+  transition: all ease 1s;
+}
+.whole_error {
+  border:3px solid red;
+  border-radius: 8px;
+  transition: all ease 1s;
+  color: red;
+}
+
+.whole_error input {
+  border-bottom: 3px solid red;
+}
+
+.whole_error input::placeholder {
+  color: red;
+  font-size: 13px;
+}
+.whole_error #__btn {
+  background-color: red;
+}
