@@ -1,0 +1,15 @@
+{
+  "devoloper" : "Ghs Julian",
+
+  "profession" : "Web Developer And Web Designer",
+
+  "skils" : "HTML,CSS,Bootstrap,JavaScript,jQuery,PHP ,Python ,C",
+
+"host_name" : "localhost",
+
+  "user_name" : "root",
+
+  "user_password" : "",
+
+  "database_name" : "my_data"
+}
